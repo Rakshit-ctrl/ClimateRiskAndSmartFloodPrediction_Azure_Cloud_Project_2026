@@ -16,7 +16,7 @@ A cloud-based AI platform for climate risk and flood prediction using satellite 
 - Amazon SNS
 - Amazon CloudWatch
 - OpenWeather API
-- NASA–IEEE GRSS Flood Dataset
+- NASA–IEEE GRSS Flood Dataset  
 
 ## Repository Structure
 
