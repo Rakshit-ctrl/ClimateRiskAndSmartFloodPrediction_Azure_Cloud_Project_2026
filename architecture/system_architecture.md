@@ -27,12 +27,3 @@ The Smart Flood Prediction System is a cloud-based platform that predicts flood 
 5. The dashboard displays predictions.
 6. Alerts are sent to users.
 
-# System Architecture
-
-## Overview
-
-The architecture of the Satellite-AI Cloud Platform is shown below.
-
-## Architecture Diagram
-
-![AWS Cloud Architecture](architecture_diagram.png)
