@@ -1,9 +1,12 @@
-#Literature Survey
-Satellite-AI Cloud Platform for Climate Risk and Flood Prediction
+# Literature Survey
 
-#Overview
+## Satellite-AI Cloud Platform for Climate Risk and Flood Prediction
+
+## Overview
+
 A literature survey was conducted to understand recent advances in flood prediction using satellite imagery, artificial intelligence, remote sensing, cloud computing, and weather forecasting. Nine recent research papers (2023–2025) from reputed journals and conferences were reviewed to identify existing techniques, limitations, and research gaps.
 
+---
 #Papers reviewed
 
 | Paper | Main Contribution | Research Gap |
@@ -18,34 +21,57 @@ A literature survey was conducted to understand recent advances in flood predict
 | **Sanderson, J.; Mao, H.; Tengtrairat, N.; Al-Nima, R.; Woo, W. (2024). _Explainable Deep Semantic Segmentation for Flood Inundation Mapping with Class Activation Mapping Techniques_. ICAART 2024, Vol. 3, pp. 1028–1035.** | Dual encoder-decoder architecture outperforms DeepLabV3+ and U-Net++ on Sentinel-1/2 imagery, using Grad-CAM/HiResCAM to explain model decisions and improve trust. | Does not incorporate DEM/LiDAR topography, attention mechanisms, or automated multi-sensor fusion for real-time deployment. |
 | **Garshasbi, M.; Alizadeh, H.; Mojaradi, B.; Saadatpour, M.; Zarei, E. (2025). _Uncertainty-Aware Flood Inundation Mapping with a Bayesian Deep Learning Framework Using SAR Imagery_. IEEE JSTARS, 18, 26716–26726.** | Bayesian deep learning framework generates probabilistic, pixel-wise flood maps with calibrated uncertainty, more efficient than physically-based hydrological models. | No integration with meteorological forecasting or optical/SAR fusion; limited exploration as a continuous, automated monitoring pipeline. |
 
-#Key Findings
-•	Most studies use satellite imagery (Sentinel-1 SAR and/or Sentinel-2 optical) as the primary data source for flood detection and mapping.
-•	Deep learning architectures such as CNNs, U-Net, U-Net++, DeepLabV3+, and Vision Transformers consistently improve flood detection and segmentation accuracy over classical threshold-based methods.
-•	Several studies combine remote sensing with terrain, hydrological, or Bayesian uncertainty models to improve robustness and generalization to unforeseen flood events.
-•	Explainable AI (XAI) techniques such as Grad-CAM and HiResCAM are emerging tools to improve trust and interpretability of deep learning flood models.
-•	Very few works integrate satellite imagery, weather APIs, artificial intelligence, cloud computing, dashboards, authentication, and automated alerts into a single deployable platform.
-•	Cloud-native, real-time architectures for continuous flood monitoring and early warning remain limited across the reviewed literature.
+---
 
-#Identified Research Gap
+## Key Findings
+
+- Most studies use satellite imagery (Sentinel-1 SAR and/or Sentinel-2 optical) as the primary data source for flood detection and mapping.
+- Deep learning architectures such as CNNs, U-Net, U-Net++, DeepLabV3+, and Vision Transformers consistently improve flood detection and segmentation accuracy over classical threshold-based methods.
+- Several studies combine remote sensing with terrain, hydrological, or Bayesian uncertainty models to improve robustness and generalization to unforeseen flood events.
+- Explainable AI (XAI) techniques such as Grad-CAM and HiResCAM are emerging tools to improve trust and interpretability of deep learning flood models.
+- Very few works integrate satellite imagery, weather APIs, artificial intelligence, cloud computing, dashboards, authentication, and automated alerts into a single deployable platform.
+- Cloud-native, real-time architectures for continuous flood monitoring and early warning remain limited across the reviewed literature.
+
+---
+---
+
+## Identified Research Gap
+
 Existing research primarily focuses on developing accurate flood detection or prediction models in isolation. However, there is limited work on building an end-to-end cloud platform that continuously collects satellite imagery and weather data, performs AI-based flood prediction with uncertainty quantification, stores results, visualizes flood-risk information through an interactive dashboard, and provides automated notifications to users.
-Proposed Solution
-The proposed project, Satellite-AI Cloud Platform for Climate Risk and Flood Prediction, addresses these limitations by integrating:
-•	NASA–IEEE GRSS Flood Dataset
-•	OpenWeather API
-•	AWS cloud services
-•	Machine learning–based flood prediction
-•	Interactive web dashboard
-•	Secure user authentication
-•	Automated flood alerts
-•	Cloud monitoring and logging
 
-#References
-Sarker, M. M., et al. (2024). Vision Transformer for Flood Detection Using Satellite Images from Sentinel-1 and Sentinel-2. Water, 16(12), 1670. https://doi.org/10.3390/w16121670
-Rindsfüser, N.; Zischg, A.P.; Keiler, M. (2024). Monitoring Flood Risk Evolution: A Systematic Review. iScience, 27(9), 110653. https://doi.org/10.1016/j.isci.2024.110653
-Amitrano, D.; Di Martino, G.; Di Simone, A.; Imperatore, P. (2024). Flood Detection with SAR: A Review of Techniques and Datasets. Remote Sensing, 16(4), 656. https://doi.org/10.3390/rs16040656
-Mangukiya, N.K.; Kushwaha, S.; Sharma, A. (2024). A Novel Multi-Model Ensemble Framework for Fluvial Flood Inundation Mapping. Environmental Modelling & Software, 180, 106163. https://doi.org/10.1016/j.envsoft.2024.106163
-Li, Z.; Demir, I. (2023). U-Net-Based Semantic Classification for Flood Extent Extraction Using SAR Imagery and GEE Platform: A Case Study for 2019 Central US Flooding. Science of the Total Environment, 869, 161757. https://doi.org/10.1016/j.scitotenv.2023.161757
-Sharma, N.K.; Saharia, M. (2025). DeepSARFlood: Rapid and Automated SAR-Based Flood Inundation Mapping Using Vision Transformer-Based Deep Ensembles with Uncertainty Estimates. Science of Remote Sensing, 11, 100203. https://doi.org/10.1016/j.srs.2025.100203
-Doan, T.-N.; Le-Thi, D.-N. (2025). A Novel Deep Learning Model for Flood Detection from Synthetic Aperture Radar Images. Journal of Advances in Information Technology, 16(1), 57–70. https://doi.org/10.12720/jait.16.1.57-70
-Sanderson, J.; Mao, H.; Tengtrairat, N.; Al-Nima, R.R.O.; Woo, W.L. (2024). Explainable Deep Semantic Segmentation for Flood Inundation Mapping with Class Activation Mapping Techniques. In Proceedings of the 16th International Conference on Agents and Artificial Intelligence (ICAART 2024), Vol. 3, pp. 1028–1035. https://doi.org/10.5220/0012432300003636
-Garshasbi, M.; Alizadeh, H.; Mojaradi, B.; Saadatpour, M.; Zarei, E. (2025). Uncertainty-Aware Flood Inundation Mapping with a Bayesian Deep Learning Framework Using SAR Imagery. IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, 18, 26716–26726. https://doi.org/10.1109/JSTARS.2025.3610403
+---
+
+## Proposed Solution
+
+The proposed project, **Satellite-AI Cloud Platform for Climate Risk and Flood Prediction**, addresses these limitations by integrating:
+
+- NASA–IEEE GRSS Flood Dataset
+- OpenWeather API
+- AWS cloud services
+- Machine learning–based flood prediction
+- Interactive web dashboard
+- Secure user authentication
+- Automated flood alerts
+- Cloud monitoring and logging
+
+---
+
+## References
+
+1. Sarker, M. M., et al. (2024). *Vision Transformer for Flood Detection Using Satellite Images from Sentinel-1 and Sentinel-2*. **Water**, 16(12), 1670. https://doi.org/10.3390/w16121670
+
+2. Rindsfüser, N.; Zischg, A. P.; Keiler, M. (2024). *Monitoring Flood Risk Evolution: A Systematic Review*. **iScience**, 27(9), 110653. https://doi.org/10.1016/j.isci.2024.110653
+
+3. Amitrano, D.; Di Martino, G.; Di Simone, A.; Imperatore, P. (2024). *Flood Detection with SAR: A Review of Techniques and Datasets*. **Remote Sensing**, 16(4), 656. https://doi.org/10.3390/rs16040656
+
+4. Mangukiya, N. K.; Kushwaha, S.; Sharma, A. (2024). *A Novel Multi-Model Ensemble Framework for Fluvial Flood Inundation Mapping*. **Environmental Modelling & Software**, 180, 106163. https://doi.org/10.1016/j.envsoft.2024.106163
+
+5. Li, Z.; Demir, I. (2023). *U-Net-Based Semantic Classification for Flood Extent Extraction Using SAR Imagery and GEE Platform: A Case Study for 2019 Central US Flooding*. **Science of the Total Environment**, 869, 161757. https://doi.org/10.1016/j.scitotenv.2023.161757
+
+6. Sharma, N. K.; Saharia, M. (2025). *DeepSARFlood: Rapid and Automated SAR-Based Flood Inundation Mapping Using Vision Transformer-Based Deep Ensembles with Uncertainty Estimates*. **Science of Remote Sensing**, 11, 100203. https://doi.org/10.1016/j.srs.2025.100203
+
+7. Doan, T.-N.; Le-Thi, D.-N. (2025). *A Novel Deep Learning Model for Flood Detection from Synthetic Aperture Radar Images*. **Journal of Advances in Information Technology**, 16(1), 57–70. https://doi.org/10.12720/jait.16.1.57-70
+
+8. Sanderson, J.; Mao, H.; Tengtrairat, N.; Al-Nima, R. R. O.; Woo, W. L. (2024). *Explainable Deep Semantic Segmentation for Flood Inundation Mapping with Class Activation Mapping Techniques*. In **Proceedings of the 16th International Conference on Agents and Artificial Intelligence (ICAART 2024)** (Vol. 3, pp. 1028–1035). https://doi.org/10.5220/0012432300003636
+
+9. Garshasbi, M.; Alizadeh, H.; Mojaradi, B.; Saadatpour, M.; Zarei, E. (2025). *Uncertainty-Aware Flood Inundation Mapping with a Bayesian Deep Learning Framework Using SAR Imagery*. **IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing**, 18, 26716–26726. https://doi.org/10.1109/JSTARS.2025.3610403
