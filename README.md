@@ -3,13 +3,18 @@
 ## Project Overview
 A cloud-based AI platform for climate risk and flood prediction using satellite imagery and weather data. The system leverages Microsoft Azure services for data storage, machine learning, deployment, and visualization.
 
-## Technologies
-- Microsoft Azure
+## Technologies Used
+
+- Amazon Web Services (AWS)
 - Python
-- Azure Machine Learning
-- Azure Blob Storage
-- Azure App Service
-- Azure SQL Database
+- AWS Lambda
+- Amazon API Gateway
+- Amazon S3
+- Amazon RDS
+- AWS Amplify
+- Amazon Cognito
+- Amazon SNS
+- Amazon CloudWatch
 - OpenWeather API
 - NASA–IEEE GRSS Flood Dataset
 
@@ -35,6 +40,7 @@ src/
 - `main` – Stable production branch
 - `develop` – Integration branch
 - `feature/student1` – Individual development branch
+- `feature/student2` – Individual development branch
 
 ## Status
 
